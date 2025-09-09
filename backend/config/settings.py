@@ -133,6 +133,8 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",  # Vue 开发服务器
     "http://127.0.0.1:5173",
+    "http://localhost:5177",  # Vue 开发服务器
+    "http://127.0.0.1:5177",
 ]
 
 # 或者简单粗暴（仅开发）：
